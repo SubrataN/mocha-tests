@@ -1,0 +1,20 @@
+{
+    "auth": {
+        "header": "Basic bW9iaWxlLWNsaWVudDphcmliYTE="
+    }, 
+    "resource": {
+        "device": "oauth-v1/device/",
+		"activation":"oauth-v1/device/activation",
+	    "deviceconfig": "v1/customer/123/devices", 
+        "requisition": "v1/requisition", 
+        "token": "oauth-v1/token"
+    }, 
+    "server": {
+        "connectString": "https://minkasu-dev.herokuapp.com"
+   }, 
+    "user": {
+        "name": "adavis", 
+        "passwordAdapter": "PasswordAdapter1", 
+        "realm": "p2pTeSg"
+    }
+}
